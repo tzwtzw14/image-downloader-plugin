@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      #status {
+        margin-top: 10px;
+        color: #666;
+      }
+    </style>
+    <script src="jszip.min.js"></script>
+  </head>
+  <body>
+    <h2>图片批量下载器</h2>
+    <button id="downloadBtn">下载当前页面所有图片</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

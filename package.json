@@ -1,0 +1,12 @@
+{
+  "name": "image-downloader-plugin",
+  "version": "1.0.0",
+  "description": "Chrome/Edge extension for downloading all images from a webpage",
+  "scripts": {
+    "generate-icons": "node convert-icons.js",
+    "package": "node package-extension.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.1"
+  }
+}
