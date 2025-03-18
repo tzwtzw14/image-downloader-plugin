@@ -2,6 +2,9 @@
 
 一个 Chrome/Edge 浏览器扩展，用于一键下载网页中的所有图片。
 
+![Snipaste_2025-03-18_18-42-07](https://github.com/user-attachments/assets/90e1f77f-855e-4771-8ed6-7b70469101b2)
+![Snipaste_2025-03-18_18-42-37](https://github.com/user-attachments/assets/9c347e31-4d8f-48ec-b5bd-84937e63dde3)
+
 ## 功能特性
 
 - 下载当前网页中的所有图片
