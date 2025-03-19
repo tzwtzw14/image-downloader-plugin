@@ -8,7 +8,7 @@
 ## 功能特性
 
 - 下载当前网页中的所有图片
-- 支持 JPG、PNG、JPEG、GIF、WebP 格式
+- 支持 JPG、PNG、JPEG、GIF、WebP、SVG 格式
 - 简单易用的弹出界面
 
 ## 安装方法

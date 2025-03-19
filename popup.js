@@ -50,7 +50,9 @@ document.getElementById("downloadBtn").addEventListener("click", async () => {
         const blob = await response.blob();
         // 清理文件名，避免特殊字符
         const cleanAlt = img.alt.replace(/[\\/:*?"<>|]/g, "_");
-        const filename = `${cleanAlt || "image"}_${index + 1}.jpg`;
+        // 根据图片URL获取文件扩展名
+        const extension = img.src.split(".").pop().toLowerCase();
+        const filename = `${cleanAlt || "image"}_${index + 1}.${extension}`;
 
         // 添加图片到 zip
         zip.file(filename, blob);
